@@ -1,3 +1,4 @@
+#Goal here is to calculate the lowest cost of shipping method for your package, cost determined by weight.
 weight = 41.5
 #Ground Shipping
 if weight <= 2:
