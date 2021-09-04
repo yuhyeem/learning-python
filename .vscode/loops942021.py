@@ -19,3 +19,22 @@ for temp in range(5):
 #doing my own version of this, printing 10 times
 randomvariable = "arrow key spite"
 for temp in range(10): print(randomvariable)
+
+
+#Doing a while loop counting down from 10
+countdown = 10
+while countdown >= 0: 
+  print(countdown);
+  countdown -= 1
+  
+print("We have liftoff!")
+
+# lets use a while loop to count down to 1 and then back up to 10
+countdown2 = 10
+while countdown2 >= 1:
+    print(countdown2);
+    countdown2 -= 1
+while countdown2 <= 10:
+    print(countdown2);
+    countdown2 +=1
+print("We down and up again")
