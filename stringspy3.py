@@ -15,3 +15,15 @@ def account_generator(first_name, last_name):
 new_account = account_generator(first_name, last_name)
 
 print(new_account)
+
+#spliced last 3 letters in strings 
+first_name = "Reiko"
+last_name = "Matsuki"
+
+def password_generator(first_name, last_name):
+  last3f = first_name[len(first_name)-3:]
+  last3L = last_name[len(last_name)-3:]
+  temp = last3f + last3L
+  return temp
+
+temp_password = password_generator(first_name,last_name)
