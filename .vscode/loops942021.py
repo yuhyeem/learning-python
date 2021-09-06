@@ -78,3 +78,13 @@ print(scaled_grades)
 heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
 can_ride_coaster = [height * 1 for height in heights if height >161]
 print(can_ride_coaster)
+
+#loops module review
+single_digits = range(0,10)
+cubes = [digit * digit* digit for digit in single_digits ]
+squares = []
+for digit in single_digits:
+  squares.append(digit * digit)
+  print(digit)
+  print(squares)
+  print(cubes)
