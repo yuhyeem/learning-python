@@ -73,3 +73,8 @@ print(scoops_sold)
 grades = [90, 88, 62, 76, 74, 89, 48, 57]
 scaled_grades = [grade + 10 for grade in grades]
 print(scaled_grades)
+
+#using conditionals in our "elegant loops"
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+can_ride_coaster = [height * 1 for height in heights if height >161]
+print(can_ride_coaster)
