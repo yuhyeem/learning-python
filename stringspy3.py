@@ -105,3 +105,16 @@ print(winter_trees_full)
 reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "steel", "on", "stones"]
 
 reapers_line_one = " ".join(reapers_line_one_words)
+
+# used strip method to clear whitespace and then .join with linebreak to have them show up on each individual line
+love_maybe_lines = ['Always    ', '     in the middle of our bloodiest battles  ', 'you lay down your arms', '           like flowering mines    ','\n' ,'   to conquer me home.    ']
+
+love_maybe_lines_stripped = []
+
+for word in love_maybe_lines:
+  love_maybe_lines_stripped.append(word.strip())
+
+
+love_maybe_full = "\n".join(love_maybe_lines_stripped)
+
+print(love_maybe_full)
