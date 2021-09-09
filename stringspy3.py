@@ -131,3 +131,7 @@ god_wills_it_line_one = "The very earth will disown you"
 
 disown_placement = god_wills_it_line_one.find("disown")
 print (disown_placement)
+
+#using .format to put user input argument into strings
+def poem_title_card(title, poet):
+  return "The poem \"{}\" is written by {}.".format(title,poet)
