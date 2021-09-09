@@ -100,3 +100,8 @@ winter_trees_lines = ['All the complicated details', 'of the attiring and', 'the
 winter_trees_full = "\n".join(winter_trees_lines)
 
 print(winter_trees_full)
+
+#.join function
+reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "steel", "on", "stones"]
+
+reapers_line_one = " ".join(reapers_line_one_words)
