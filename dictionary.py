@@ -35,3 +35,9 @@ for exer in num_exercises.values():
   total_exercises += exer
 
 print(total_exercises)
+
+#using .items to grab key + values in a dictionary and printed a statement the exercise wanted including the keys/values.
+pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58, "Physician": 40, "Lawyer": 37, "Aerospace Engineer": 9}
+
+for women,occupation in pct_women_in_occupation.items():
+  print("Women make up " +str(occupation) + " percent of " + women + "s.")
