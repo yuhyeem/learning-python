@@ -25,3 +25,13 @@ health_points += available_items.pop("stamina grains", 0)
 health_points += available_items.pop("power stew", 0)
 health_points += available_items.pop("mystic bread", 0)
 print(available_items, health_points)
+
+# .values to return list of values in a dictionary
+num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19, "classes": 18, "dictionaries": 18}
+
+total_exercises = 0
+
+for exer in num_exercises.values():
+  total_exercises += exer
+
+print(total_exercises)
